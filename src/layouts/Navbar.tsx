@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "../assets/rigi_logo.svg";
 import { FaUserCircle } from "react-icons/fa";
 

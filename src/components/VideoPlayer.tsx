@@ -38,9 +38,9 @@ const VideoPlayer = () => {
   const [speed, setSpeed] = useState(1);
   const [crTime, setCrTime] = useState(0);
   const [duration, setDuration] = useState(0);
-  const [showControls, setShowControls] = useState(false);
+  const [showControls, setShowControls] = useState(true);
   const [isFullScreen, setIsFullScreen] = useState(false);
- 
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -92,6 +92,16 @@ const VideoPlayer = () => {
     []
   );
 
+  useEffect(() => {
+    // return () => {
+    setIsPlaying(false);
+    setIsLoading(true);
+    setShowControls(true);
+    setDuration(0);
+    setSpeed(1);
+    // };
+  }, [id]);
+
   // for fullscreen
   const handleFullScreen = useFullScreenHandle();
 
@@ -121,10 +131,19 @@ const VideoPlayer = () => {
           onMouseEnter={() => setShowControls(true)}
           onMouseLeave={() => setShowControls(false)}
         >
+          {isLoading && (
+            <div
+              className="absolute top-1/2 left-1/2 inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-e-transparent align-[-0.125em] text-surface motion-reduce:animate-[spin_1.5s_linear_infinite] dark:text-white"
+              role="status"
+            />
+          )}
+
           <video
             ref={videoRef}
             key={video?.id}
             className="rounded-t-md h-full w-full"
+            // onLoadStart={handleOnLoadStart}
+            onLoadedData={() => setIsLoading(false)}
           >
             <source src={video?.sources[0]} type="video/mp4" />
             <p>Your browser doesn't support HTML5 video.</p>

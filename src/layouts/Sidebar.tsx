@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Videos from "../data.json";
 import { NavLink } from "react-router-dom";
 import {
@@ -75,15 +75,15 @@ const Sidebar = () => {
                           >
                             <MdOutlineDragIndicator className="text-white text-base min-w-4" />
                             <img
-                              className="min-w-14 h-12 rounded-md"
-                              src={"https://picsum.photos/300"}
+                              className="min-w-14 h-10 rounded-md"
+                              src={video.imageUrl}
                               alt={video.title}
                             />
                             <div>
                               <p className="text-sm text-white font-semibold">
                                 {video.title}
                               </p>
-                              <p className="text-xs text-slate-300 font-normal">
+                              <p className="text-xs text-slate-300 font-normal my-1">
                                 {video.subtitle}
                               </p>
                             </div>

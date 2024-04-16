@@ -1,9 +1,15 @@
 import "./App.css";
 import Navbar from "./layouts/Navbar";
 import Sidebar from "./layouts/Sidebar";
-import VideoPlayer from "./components/VideoPlayer";
+import { Outlet, useNavigate } from "react-router";
+import { useEffect } from "react";
 
 function App() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    navigate("/RigiV001");
+  }, []);
+
   return (
     <div className="bg-custom-stale-secondary relative">
       <Navbar />
@@ -12,7 +18,7 @@ function App() {
         <Sidebar />
 
         <div className="md:flex-grow mt-14 p-3">
-          <VideoPlayer />
+          <Outlet />
         </div>
       </div>
     </div>
