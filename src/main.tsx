@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./index.css";
-import VideoPlayer from "./components/VideoPlayer.tsx";
+// import VideoPlayer from "./components/VideoPlayer.tsx";
 
 const router = createBrowserRouter([
   {
@@ -12,7 +12,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/:id",
-        element: <VideoPlayer />,
+        // element: <VideoPlayer />,
       },
     ],
   },

@@ -4,7 +4,7 @@
     "sources": [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
     ],
-    "subtitle": "By Blender Foundation",
+    "subtitle": "Blender Foundation",
     "thumb": "images/BigBuckBunny.jpg",
     "title": "Big Buck Bunny",
     "id": "RigiV001"
@@ -14,7 +14,7 @@
     "sources": [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
     ],
-    "subtitle": "By Blender Foundation",
+    "subtitle": "Blender Foundation",
     "thumb": "images/ElephantsDream.jpg",
     "title": "Elephant Dream",
     "id": "RigiV002"
@@ -24,7 +24,7 @@
     "sources": [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
     ],
-    "subtitle": "By Google",
+    "subtitle": "Google",
     "thumb": "images/ForBiggerBlazes.jpg",
     "title": "For Bigger Blazes",
     "id": "RigiV003"
@@ -34,7 +34,7 @@
     "sources": [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
     ],
-    "subtitle": "By Google",
+    "subtitle": "Google",
     "thumb": "images/ForBiggerEscapes.jpg",
     "title": "For Bigger Escape",
     "id": "RigiV004"
@@ -44,7 +44,7 @@
     "sources": [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
     ],
-    "subtitle": "By Google",
+    "subtitle": "Google",
     "thumb": "images/ForBiggerFun.jpg",
     "title": "For Bigger Fun",
     "id": "RigiV005"
@@ -54,7 +54,7 @@
     "sources": [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
     ],
-    "subtitle": "By Google",
+    "subtitle": "Google",
     "thumb": "images/ForBiggerJoyrides.jpg",
     "title": "For Bigger Joyrides",
     "id": "RigiV006"
@@ -64,7 +64,7 @@
     "sources": [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"
     ],
-    "subtitle": "By Google",
+    "subtitle": "Google",
     "thumb": "images/ForBiggerMeltdowns.jpg",
     "title": "For Bigger Meltdowns",
     "id": "RigiV007"
@@ -74,7 +74,7 @@
     "sources": [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
     ],
-    "subtitle": "By Blender Foundation",
+    "subtitle": "Blender Foundation",
     "thumb": "images/Sintel.jpg",
     "title": "Sintel",
     "id": "RigiV008"
@@ -84,7 +84,7 @@
     "sources": [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4"
     ],
-    "subtitle": "By Garage419",
+    "subtitle": "Garage419",
     "thumb": "images/SubaruOutbackOnStreetAndDirt.jpg",
     "title": "Subaru Outback On Street And Dirt",
     "id": "RigiV009"
@@ -94,7 +94,7 @@
     "sources": [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
     ],
-    "subtitle": "By Blender Foundation",
+    "subtitle": "Blender Foundation",
     "thumb": "images/TearsOfSteel.jpg",
     "title": "Tears of Steel",
     "id": "RigiV010"
@@ -104,7 +104,7 @@
     "sources": [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4"
     ],
-    "subtitle": "By Garage419",
+    "subtitle": "Garage419",
     "thumb": "images/VolkswagenGTIReview.jpg",
     "title": "Volkswagen GTI Review",
     "id": "RigiV011"
@@ -114,7 +114,7 @@
     "sources": [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4"
     ],
-    "subtitle": "By Garage419",
+    "subtitle": "Garage419",
     "thumb": "images/WeAreGoingOnBullrun.jpg",
     "title": "We Are Going On Bullrun",
     "id": "RigiV012"
@@ -124,7 +124,7 @@
     "sources": [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4"
     ],
-    "subtitle": "By Garage419",
+    "subtitle": "Garage419",
     "thumb": "images/WhatCarCanYouGetForAGrand.jpg",
     "title": "What care can you get for a grand?",
     "id": "RigiV013"
