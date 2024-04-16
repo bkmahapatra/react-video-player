@@ -5,7 +5,7 @@ import VideoPlayer from "./components/VideoPlayer";
 
 function App() {
   return (
-    <div className="bg-custom-stale-secondary">
+    <div className="bg-custom-stale-secondary relative">
       <Navbar />
 
       <div className="flex flex-col-reverse sm:flex-row">
